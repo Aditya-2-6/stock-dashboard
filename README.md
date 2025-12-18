@@ -7,7 +7,7 @@ This application demonstrates a **Hybrid Microservice Architecture**, separating
 ---
 
 ### 🌐 Live Demo
-**[Click Here to View Live Project](https://stock-dashboard-frw4fr6ro-adityas-projects-0eaf3153.vercel.app/)**
+**[Click Here to View Live Project](https://stock-dashboard-aditya.vercel.app/)**
 *(Note: The backend is hosted on a free tier instance. Please allow 30-60 seconds for the server to wake up on the initial load if the "Database: Connecting..." badge is visible.)*
 
 ---
