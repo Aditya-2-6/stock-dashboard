@@ -53,12 +53,3 @@ stock-dashboard/
 │   └── .env             # Secrets (Excluded from Git)
 │
 └── README.md            # Documentation
-
-## 🚀 Getting Started Locally
-
-Follow these steps to run the project on your local machine.
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/Aditya-2-6/stock-dashboard.git](https://github.com/Aditya-2-6/stock-dashboard.git)
-cd stock-dashboard
