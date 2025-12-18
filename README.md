@@ -38,6 +38,9 @@ This application demonstrates a **Hybrid Microservice Architecture**, separating
 
 ---
 
+## 📂 Project Structure
+
+```text
 stock-dashboard/
 ├── client/              # React Frontend
 │   ├── src/
