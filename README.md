@@ -8,7 +8,10 @@ This application demonstrates a **Hybrid Microservice Architecture**, separating
 
 ### 🌐 Live Demo
 **[Click Here to View Live Project](https://stock-dashboard-aditya.vercel.app/)**
-*(Note: The backend is hosted on a free tier instance. Please allow 30-60 seconds for the server to wake up on the initial load if the "Database: Connecting..." badge is visible.)*
+
+**Backend is hosted on Render and is live.**
+
+*(Note: Since the backend is on a free tier instance, please allow 30-60 seconds for the server to wake up on the initial load if the "Database: Connecting..." badge is visible.)*
 
 ---
 
@@ -34,6 +37,22 @@ This application demonstrates a **Hybrid Microservice Architecture**, separating
 | **Deployment** | Vercel (Client) + Render (Server) |
 
 ---
+
+stock-dashboard/
+├── client/              # React Frontend
+│   ├── src/
+│   │   ├── App.jsx      # Main Dashboard Logic
+│   │   ├── App.css      # Glassmorphism Styling
+│   │   └── ...
+│   └── package.json
+│
+├── server/              # Node.js Backend
+│   ├── models/          # MongoDB Schemas (User.js)
+│   ├── index.js         # Server Entry (Express + Socket.io)
+│   ├── package.json
+│   └── .env             # Secrets (Excluded from Git)
+│
+└── README.md            # Documentation
 
 ## 🚀 Getting Started Locally
 
